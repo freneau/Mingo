@@ -1,0 +1,26 @@
+@-webkit-keyframes bounce_inTurnFadingTextG {
+  0% {color:#FFFFFF;}
+  100% {color:#000000;}
+}
+
+
+@-webkit-keyframes appear {
+  0% { opacity: 0; text-shadow: 0px 0px 40px #fff; -webkit-transform: scale(0); }
+  100% { opacity: 1;  text-shadow: 0px 0px 1px #fff; -webkit-transform: scale(1); }
+}
+@-webkit-keyframes disappear {
+  0% { opacity: 1; text-shadow: 0px 0px 1px #fff; -webkit-transform: scale(1); }
+  100% { opacity: 0; text-shadow: 0px 0px 40px #fff; -webkit-transform: scale(0); }
+}
+@-webkit-keyframes validate {
+  0% { background: linear-gradient(to top, rgb(0, 64, 255), rgb(0, 128, 255)); }
+  100% { background: green; }
+}
+@-webkit-keyframes error {
+  0% { background: linear-gradient(to top, rgb(0, 64, 255), rgb(0, 128, 255)); }
+  100% { background: red; }
+}
+@-webkit-keyframes reset {
+  0% { opacity: 1; text-shadow: 0px 0px 1px #fff; -webkit-transform: scale(1); }
+  100% { opacity: 0; text-shadow: 0px 0px 40px #fff; -webkit-transform: scale(0); }
+}
